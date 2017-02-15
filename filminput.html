@@ -2,9 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Films Data input</title>
 </head>
 <body>
-$END$
+    <h1>File Data Input Form</h1>
+    <form action="/cgi-bin/addfilms.py">
+        <p>Film title:&nbsp;
+        <input type="text" name="title" size=50><br /><br />
+        Year produced:&nbsp;
+        <input type="text" name="year" size=4><br /><br />
+        Directed by:&nbsp;
+            <input type="text" name="director" size=50></p><br /><br />
+        <input type="submit" name="Submit">
+    </form>
 </body>
 </html>
